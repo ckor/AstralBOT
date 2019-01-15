@@ -17,9 +17,10 @@ const embed = new Discord.RichEmbed()
    * Takes a Date object, defaults to current date.
    */
   .setTimestamp()
-  .setURL("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
-  .addField("This is a field title, it can hold 256 characters",
-    "This is a field value, it can hold 1024 characters.")
+  .setURL("https://discordapp.com/channels/534118458271596597/534118458275790849/534799853000327171")
+  .addField("Règlement du forum Astral MultiGaming",
+	"Ceci est un récapitulatif des règles les plus importantes:\n\
+	...\n")
   /*
    * Inline fields may not display as inline if the thumbnail and/or image is too big.
    */
